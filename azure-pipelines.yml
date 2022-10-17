@@ -54,7 +54,7 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'my-first-service-connection'
     appType: 'webApp'
-    WebAppName: 
+    WebAppName: 'websitesaar'
     packageForLinux: '$(System.ArtifactsDirectory)/drop/*.zip'
 
 
