@@ -52,7 +52,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: ''
+    azureSubscription: 'pipeline-connection'
     appType: 'webApp'
     WebAppName: 'websitetestsaar'
     packageForLinux: '$(System.ArtifactsDirectory)/drop/*.zip'
